@@ -37,9 +37,8 @@ Telegram交流反馈群组：https://t.me/eooceu
 | PORT | 否 | 3000 | HTTP服务监听端口 |
 | ARGO_PORT | 否 | 8001 | Argo隧道端口 |
 | UUID | 否 | 89c13786-25aa-4520-b2e7-12cd60fb5202 | 用户UUID |
-| KOMARI_SERVER | 否 | - | komari 面板域名 |
-| KOMARI_PORT | 否 | - | komari 端口 |
-| KOMARI_KEY | 否 | - | komari 密钥 |
+| KOMARI_ENDPOINT | 否 | - | Komari 服务器地址（完整URL，如: https://xxx.com） |
+| KOMARI_TOKEN | 否 | - | Komari 认证令牌 |
 | ARGO_DOMAIN | 否 | - | Argo固定隧道域名 |
 | ARGO_AUTH | 否 | - | Argo固定隧道密钥 |
 | CFIP | 否 | www.visa.com.tw | 节点优选域名或IP |
@@ -95,9 +94,8 @@ export UPLOAD_URL="https://your-merge-sub-domain.com"
 export PROJECT_URL="https://your-project-domain.com"
 export PORT=3000
 export UUID="your-uuid-here"
-export KOMARI_SERVER="komari.your-domain.com"
-export KOMARI_PORT="5555"
-export KOMARI_KEY="your-komari-key"
+export KOMARI_ENDPOINT="https://komari.your-domain.com"
+export KOMARI_TOKEN="your-komari-token"
 ```
 
 ## 📦 作为npm模块使用

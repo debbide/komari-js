@@ -13,6 +13,12 @@ nodejs-argo是一个强大的Argo隧道部署工具，专为PaaS平台和游戏�
 Telegram交流反馈群组：https://t.me/eooceu
 </div>
 
+## 📌 项目说明
+
+> **本项目基于 [eooce/nodejs-argo](https://github.com/eooce/nodejs-argo) 进行修改，仅供个人学习和使用。**
+> 
+> 在原作者项目的基础上，将哪吒探针替换为 Komari 监控系统，以满足个人使用需求。感谢原作者的开源贡献！
+
 ## 郑重声明
 * 本项目自2025年10月29日15时45分起,已更改开源协议为GPL 3.0,并包含以下特定要求
 * 此项目仅限个人使用，禁止用于商业行为(包括但不限于：youtube,bilibili,tiktok,facebook..等等)
